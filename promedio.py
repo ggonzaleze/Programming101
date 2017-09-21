@@ -1,0 +1,6 @@
+print("Este programa calcula tu promedio en una materia. ")
+materia=input("Escribe el nombre de la materia. ")
+c1=int(input("Introduce tu calificación en el primer parcial "))
+c2=int(input("Introduce tu calificación en el segundo parcial "))
+c3=int(input("Introduce tu calificación en el tercer parcial "))
+print("Tu calificación en la materia de "+materia+" es de ",(c1+c2+c3)/3)
