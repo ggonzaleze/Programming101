@@ -1,3 +1,4 @@
+#This program eliminates extra spaces and adds spaces when needed in a phrase.
 def correct(phrase):
     newstring = ""
     for i in range(len(phrase) - 1):
