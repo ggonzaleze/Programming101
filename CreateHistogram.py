@@ -1,3 +1,4 @@
+#This program creates a histogram for a list of numbers
 def histogram(list):
     for element in list:
         print("*"*element)
