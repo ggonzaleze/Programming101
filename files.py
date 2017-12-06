@@ -11,5 +11,5 @@ def files_count(text):
     text_file.close()
     return (lines,characters)
 
-path = 'C:/Users/georg/Documents/python/week.txt'
+path = 'week.txt'
 print("The number of lines and characters, respectively, is: ",files_count(path))
