@@ -7,5 +7,5 @@ def char_freq_table(File):
         chars[c] = chars.get(c,0) + 1
     return chars
 
-path = 'C:/Users/georg/Documents/python/words.txt'
+path = 'words.txt'
 print(char_freq_table(path))
