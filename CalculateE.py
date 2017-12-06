@@ -1,3 +1,4 @@
+#This program calculates the number e with the precision given
 def factorial(x):
     if x == 0:
         return 1
