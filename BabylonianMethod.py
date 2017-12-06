@@ -1,3 +1,4 @@
+#This program calculates the square root of a number using the Babylonian method
 def babylonian_method(x):
     initial_guess = x/2
     difference = 1
