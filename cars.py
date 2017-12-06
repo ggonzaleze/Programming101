@@ -1,4 +1,4 @@
-path = 'C:/Users/georg/Documents/python/cars.txt'
+path = 'cars.txt'
 file_path = open(path,'r')
 lines = file_path.readlines()
 lines = lines[0::2]
