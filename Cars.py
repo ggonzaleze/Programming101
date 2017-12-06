@@ -1,3 +1,4 @@
+#This program reads the file named cars and calculates the averages of the table in the file
 path = 'cars.txt'
 file_path = open(path,'r')
 lines = file_path.readlines()
