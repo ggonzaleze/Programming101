@@ -18,6 +18,6 @@ def implement_reduce(function,elements):
     return result
 
 numbers = [1,2,3,4]
-print(implement_map(lambda x : x**2, numbers))
-print(implement_filter(lambda x : x % 2 == 0,numbers))
-print(implement_reduce(lambda x,y : x * y,numbers))
+print(implement_map(lambda x : x**2, numbers)) #answer: [1,2,9,16]
+print(implement_filter(lambda x : x % 2 == 0,numbers)) #answer: [2,4]
+print(implement_reduce(lambda x,y : x * y,numbers)) #answer: 24
